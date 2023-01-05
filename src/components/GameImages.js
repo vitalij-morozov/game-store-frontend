@@ -48,9 +48,6 @@ const Container = styled.section`
     box-shadow: 0px 0px 0px 2px var(--clr-primary-5);
   }
   @media (max-width: 600px) {
-    .main {
-      height: 300px;
-    }
     .gallery {
       img {
         height: 50px;

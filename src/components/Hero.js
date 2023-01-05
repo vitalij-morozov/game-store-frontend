@@ -52,7 +52,7 @@ const Container = styled.section`
   }
 
   @media (min-width: 990px) {
-    height: calc(100vh - 5rem);
+    padding: 2rem 0;
     grid-template-columns: 1fr 1fr;
     gap: 8rem;
 

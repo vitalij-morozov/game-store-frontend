@@ -53,10 +53,8 @@ export const GamesProvider = ({ children }) => {
     try {
       const response = await fetch(url);
       const game = await response.json();
-      console.log('2222 game ===', game);
       dispatch({ type: GET_SINGLE_GAME_SUCCESS, payload: game.data });
     } catch (error) {
-      console.log('error ===', error);
       dispatch({ type: GET_SINGLE_GAME_ERROR });
     }
   };
